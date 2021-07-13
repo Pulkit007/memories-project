@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://pulkit-memories-app.netlify.app/",
+  baseURL: "https://pulkit-memories-app.herokuapp.com/",
 });
 
 API.interceptors.request.use((req) => {
